@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/dataset/train/images
+val: /content/drive/MyDrive/dataset/valid/images
+test: /content/drive/MyDrive/dataset/test/images
+
+nc: 29
+names: ['Apple Fresh', 'Apple Rotten', 'Apple Semifresh', 'Apple Semirotten', 'Banana Fresh', 'Banana Rotten', 'Banana Semifresh', 'Banana Semirotten', 'Mango Fresh', 'Mango Rotten', 'Mango Semifresh', 'Mango Semirotten', 'Melon Fresh', 'Melon Rotten', 'Melon Semifresh', 'Melon Semirotten', 'Orange Fresh', 'Orange Rotten', 'Orange Semifresh', 'Orange Semirotten', 'Peach Fresh', 'Peach Rotten', 'Peach Semifresh', 'Peach Semirotten', 'Pear Fresh', 'Pear Rotten', 'Pear Semifresh', 'Pear Semirotten', 'PearSemifresh']
+
+roboflow:
+  workspace: kella
+  project: fruits-detection-and-quality-analysis-yh2ue-drorc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kella/fruits-detection-and-quality-analysis-yh2ue-drorc/dataset/1
